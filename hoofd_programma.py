@@ -1,4 +1,5 @@
 from boekhouding import *
+from helper import *
 
 uitvoer = onderstreep("AANBIEDING")
 uitvoer.append("Aardbeienijs, emmertje van 5 liter: 5 euro")

@@ -19,5 +19,11 @@ def onderstreep(tekst=""):
     uit.append(len(tekst) * "=")  
     return uit
 
-def som(inkomsten):
-    return sum(inkomsten.values())
+# def som(inkomsten):
+#     return sum(inkomsten.values())
+
+def som(input):
+    output = 0
+    for key, value in input.items():
+        output += value
+    return output
